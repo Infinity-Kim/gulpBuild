@@ -14,5 +14,6 @@ module.exports = () => {
             .pipe($.glp.groupCssMediaQueries())
             .pipe($.glp.sourcemaps.write())
             .pipe($.gulp.dest('./build/assets/css'))
+            .pipe($.browserSync.stream());
     });
 };

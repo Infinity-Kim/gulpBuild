@@ -7,5 +7,6 @@ module.exports = () => {
                 log: true
             }))
             .pipe($.gulp.dest('./build/assets/img'))
+            .pipe($.browserSync.reload({ stream: true }))
     });
 };

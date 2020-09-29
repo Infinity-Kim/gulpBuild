@@ -15,5 +15,6 @@ module.exports = () => {
             }))
             .pipe($.glp.w3cHtmlValidator())
             .pipe($.gulp.dest('./build'))
+            .pipe($.browserSync.reload({ stream: true }))
     });
 };
