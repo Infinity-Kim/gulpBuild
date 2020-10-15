@@ -1,6 +1,6 @@
 {
   "name": "gulpbuild",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Моя сборка для верстки",
   "main": "index.js",
   "scripts": {
@@ -27,7 +27,7 @@
     "browser-sync": "^2.26.12",
     "gulp": "^4.0.2",
     "gulp-group-css-media-queries": "^1.2.2",
-    "gulp-html-beautify": "^1.0.1",
+    "gulp-html-prettify": "0.0.1",
     "gulp-load-plugins": "^2.0.4",
     "gulp-notify": "^3.2.0",
     "gulp-plumber": "^1.2.1",
