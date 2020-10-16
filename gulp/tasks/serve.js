@@ -5,7 +5,7 @@ module.exports = () => {
         });
 
         $.gulp.watch('./src/fonts/**/*',  $.gulp.series('fonts')); // шрифты
-        $.gulp.watch('./src/img/**/*.{png,jpg,jpeg}', $.gulp.series(['img', 'webp'])); // картинки
+        $.gulp.watch('./src/img/**/*.{png,jpg,jpeg}', $.gulp.series('img', 'webp')); // картинки
 
         $.gulp.watch(['./src/scss/*.scss', './src/scss/**/*.scss'], $.gulp.series('scss')); // стили
         $.gulp.watch(['./src/pages/*.pug', './src/pages/**/*.pug'], $.gulp.series('html')); // html

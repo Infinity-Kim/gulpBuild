@@ -1,5 +1,5 @@
 module.exports = () => {
-    $.gulp.task('img', () => {
+    $.gulp.task('webp', () => {
         return $.gulp.src('./src/img/**/*.{png,jpg,jpeg,tiff}')
             .pipe($.glp.webp())
             .pipe($.gulp.dest('./build/assets/img'))
