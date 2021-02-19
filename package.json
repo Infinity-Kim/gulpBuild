@@ -1,0 +1,19 @@
+{
+  "name": "gulpbuild",
+  "version": "1.0.0",
+  "description": "Сборка для верстки",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Infinity-Kim/gulpBuild.git"
+  },
+  "author": "Kim Valentin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Infinity-Kim/gulpBuild/issues"
+  },
+  "homepage": "https://github.com/Infinity-Kim/gulpBuild#readme"
+}
