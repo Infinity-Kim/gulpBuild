@@ -20,23 +20,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ad1b7017-ddfd-4b28-982d-69d62622f5d6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulp/config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulp/tasks/clean-img.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulp/tasks/fonts.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulp/tasks/html.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulp/tasks/img.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulp/tasks/scss.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulp/tasks/serve.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulp/tasks/webp.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulpfile.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/common/layout.pug" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/index.pug" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/main.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/normalize.scss" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/page/home/index.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/_base.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/_fonts.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/_variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulp/tasks/html.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulp/tasks/html.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulp/tasks/scss.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulp/tasks/scss.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulp/tasks/serve.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulp/tasks/serve.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/default.pug" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,6 +60,11 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="B:\Github\gulpBuild\src" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -76,6 +77,8 @@
       <workItem from="1602907209109" duration="7678000" />
       <workItem from="1602928597948" duration="402000" />
       <workItem from="1613759276103" duration="170000" />
+      <workItem from="1623739111042" duration="2747000" />
+      <workItem from="1624440570066" duration="4205000" />
     </task>
     <servers />
   </component>
@@ -95,9 +98,21 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="445" y="174" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1602845087027">
-      <screen x="0" y="0" width="1366" height="768" />
+    <state width="1876" height="108" key="GridCell.Tab.0.bottom" timestamp="1623752033545">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="445" y="174" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.768@0.0.1366.768" timestamp="1602845087027" />
+    <state width="1876" height="108" key="GridCell.Tab.0.bottom/1920.0.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1623752033545" />
+    <state width="1876" height="108" key="GridCell.Tab.0.center" timestamp="1623752033545">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1876" height="108" key="GridCell.Tab.0.center/1920.0.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1623752033545" />
+    <state width="1876" height="108" key="GridCell.Tab.0.left" timestamp="1623752033545">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1876" height="108" key="GridCell.Tab.0.left/1920.0.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1623752033545" />
+    <state width="1876" height="108" key="GridCell.Tab.0.right" timestamp="1623752033545">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1876" height="108" key="GridCell.Tab.0.right/1920.0.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1623752033545" />
   </component>
 </project>

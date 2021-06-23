@@ -1,12 +1,18 @@
 module.exports = () => {
     $.gulp.task('serve', () => {
+
         $.browserSync.init({
-            server: './docs'
+            server: {
+                baseDir: './docs'
+            }
         });
 
-        //$.gulp.watch('./src/blocks/**/img/*.{png,jpg,jpeg}', $.gulp.series('img', 'webp', 'clean-img')); // картинки
 
-        $.gulp.watch('src/blocks/**/*.scss', $.gulp.parallel('scss')); // стили
-        $.gulp.watch('src/blocks/**/*.pug', $.gulp.parallel('html')); // html
+        $.gulp.watch('src/page/**/*.pug', ['html']);
+        $.gulp.watch('src/components/**/*.pug', ['html']);
+
+        $.gulp.watch('src/scss/**/*.scss', ['scss']);
+        $.gulp.watch('src/page/**/*.scss', ['scss']);
+        $.gulp.watch('src/components/**/*.scss', ['scss']);
     });
 };
